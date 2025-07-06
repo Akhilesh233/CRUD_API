@@ -36,9 +36,11 @@ The server will run on http://localhost:5000
 ### API Endpoints
 
 1. GET all users
+    ```sh
     GET/users
 
 2. Add a new user
+    ```sh
     POST/users
 
     This is a format of sample body(JSON):
@@ -49,15 +51,18 @@ The server will run on http://localhost:5000
     }
 
 3. Get a user by ID
+    ```sh
     GET/users/:id
 
 4. Update a user
+    ```sh
     PATCH/users/:id
 
     The body(JSON):
     Any of firstName, lastName, email
 
 5. Delete a user
+    ```sh
     DELETE/users/:id
 
 
